@@ -46,41 +46,41 @@ SNOWBALL_VELOCITY = 7
 PRESENT_VELOCITY = 3
 
 SANTA_IMAGE = pygame.image.load(os.path.join(
-    r'C:\Users\bayar\OneDrive\Desktop\Techne club Python\New year project\Santa snowball fight\Assets\santa.png'))
+    r'C:\Users\bayar\OneDrive\Desktop\Techne club\New year project\Santa snowball fight\Assets\santa.png'))
 SANTA1 = pygame.transform.scale(SANTA_IMAGE, (SANTA_WIDTH, SANTA_HEIGHT))
 
 SANTA2_IMAGE = pygame.image.load(os.path.join(
-    r'C:\Users\bayar\OneDrive\Desktop\Techne club Python\New year project\Santa snowball fight\Assets\gaigui_santa.png'))
+    r'C:\Users\bayar\OneDrive\Desktop\Techne club\New year project\Santa snowball fight\Assets\gaigui_santa.png'))
 SANTA2 = pygame.transform.scale(
     SANTA2_IMAGE, (SANTA_WIDTH, SANTA_HEIGHT))
 
 
 SNOWBALL_IMAGE = pygame.image.load(os.path.join(
-    r'C:\Users\bayar\OneDrive\Desktop\Techne club Python\New year project\Santa snowball fight\Assets\Snowball.png'))
+    r'C:\Users\bayar\OneDrive\Desktop\Techne club\New year project\Santa snowball fight\Assets\Snowball.png'))
 SNOWBALL = pygame.transform.scale(
     SNOWBALL_IMAGE, (SNOWBALL_WIDTH, SNOWBALL_HEIGHT))
 
 PROJECTILE1_IMAGE = pygame.image.load(
-    os.path.join(r'C:\Users\bayar\OneDrive\Desktop\Techne club Python\New year project\Santa snowball fight\Assets\ice projectile.png'))
+    os.path.join(r'C:\Users\bayar\OneDrive\Desktop\Techne club\New year project\Santa snowball fight\Assets\ice projectile.png'))
 PROJECTILE1 = pygame.transform.scale(
     PROJECTILE1_IMAGE, (PROJECTILE_WIDTH, PROJECTILE_HEIGHT))
 
 PROJECTILE2_IMAGE = pygame.image.load(
-    os.path.join(r'C:\Users\bayar\OneDrive\Desktop\Techne club Python\New year project\Santa snowball fight\Assets\ice projectile.png'))
+    os.path.join(r'C:\Users\bayar\OneDrive\Desktop\Techne club\New year project\Santa snowball fight\Assets\ice projectile.png'))
 PROJECTILE2 = pygame.transform.flip(PROJECTILE1, True, False)
 
 PRESENT_GREEN_IMAGE = pygame.image.load(
-    os.path.join(r'C:\Users\bayar\OneDrive\Desktop\Techne club Python\New year project\Santa snowball fight\Assets\present_green.png'))
+    os.path.join(r'C:\Users\bayar\OneDrive\Desktop\Techne club\New year project\Santa snowball fight\Assets\present_green.png'))
 PRESENT_GREEN = pygame.transform.scale(
     PRESENT_GREEN_IMAGE, (PRESENT_WIDTH, PRESENT_HEIGHT))
 
 PRESENT_RED_IMAGE = pygame.image.load(
-    os.path.join(r'C:\Users\bayar\OneDrive\Desktop\Techne club Python\New year project\Santa snowball fight\Assets\present_red.png'))
+    os.path.join(r'C:\Users\bayar\OneDrive\Desktop\Techne club\New year project\Santa snowball fight\Assets\present_red.png'))
 PRESENT_RED = pygame.transform.scale(
     PRESENT_RED_IMAGE, (PRESENT_WIDTH, PRESENT_HEIGHT))
 
 BACKGROUND_IMAGE = pygame.image.load(
-    os.path.join(r'C:\Users\bayar\OneDrive\Desktop\Techne club Python\New year project\Santa snowball fight\Assets\background_img.jpg'))
+    os.path.join(r'C:\Users\bayar\OneDrive\Desktop\Techne club\New year project\Santa snowball fight\Assets\background_img.jpg'))
 BACKGROUND = pygame.transform.scale(BACKGROUND_IMAGE, (WIDTH, HEIGHT))
 
 PLAYER_HEALTH = 500
